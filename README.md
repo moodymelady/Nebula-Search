@@ -1,6 +1,4 @@
-Below is the complete content for your README.md file, written in a professional, standard format without emojis.
 
-Nebula Search
 Nebula Search is a local Retrieval-Augmented Generation (RAG) system that allows users to perform semantic searches across their personal PDF documents. The project features a decoupled architecture consisting of a FastAPI backend and a graphical user interface built with CustomTkinter.
 
 System Architecture
@@ -60,6 +58,7 @@ Bash
 
 source venv/bin/activate
 python3 app.py
+
 Wait until the terminal displays a message indicating that the application startup is complete.
 
 Step 2: Start the Frontend
@@ -68,7 +67,8 @@ Open a second terminal tab, navigate to the project folder, activate the virtual
 Bash
 
 source venv/bin/activate
-python3 search_ui.py
+python3 search_ui.py 
+
 Usage
 Enter a query into the search bar of the Nebula Search window.
 
