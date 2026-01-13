@@ -1,0 +1,14 @@
+# python
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+
+# java
+*.class
+javafx-sdk/
+
+# os/other
+.DS_Store
+watchman
+javafx_sdk.zip
